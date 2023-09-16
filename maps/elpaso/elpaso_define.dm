@@ -16,6 +16,9 @@
 		new /datum/space_level/el_paso_1,
 		new /datum/space_level/el_paso_3,
 		new /datum/space_level/el_paso_4,
+		new /datum/space_level/null_space,
+		new /datum/space_level/telecomms,
+		new /datum/space_level/construction_site,
 	)
 
 	station_name  = "Town Of El Paso"
