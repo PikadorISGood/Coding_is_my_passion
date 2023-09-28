@@ -1,5 +1,5 @@
 /datum/space_level/el_paso_1
-	path = 'el_paso.dmm'
+	path = 'el_paso_1.dmm'
 	travel_chance = 5
 	traits = list(
 		ZTRAIT_STATION,
