@@ -2,6 +2,7 @@
 	name = "Deathsquad Shuttle"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 	base_turf = /turf/space
+	dynamic_lighting = 0
 
 /area/elpaso/shuttle/deathsquad/transit
 	name = "Deathsquad Shuttle Internim"
@@ -31,6 +32,7 @@
 	name = "\improper Emergency Shuttle Centcom"
 	icon_state = "shuttle"
 	base_turf = /turf/space
+	dynamic_lighting = 0
 
 /area/elpaso/shuttle/escape
 	name = "\improper Emergency Shuttle"
@@ -40,11 +42,14 @@
 	name = "\improper Emergency Shuttle Station"
 	icon_state = "shuttle2"
 	base_turf = /turf/simulated/floor/plating
+	dynamic_lighting = 0
+	requires_power = 0
 
 /area/elpaso/shuttle/escape/transit // the area/elpaso to pass through for 3 minute transit
 	name = "\improper Emergency Shuttle Transit"
 	icon_state = "shuttle"
 	base_turf = /turf/space/transit/north
+	requires_power = 0
 
 /area/elpaso/shuttle/administration/transit
 	name = "Administration Shuttle Transit"
@@ -78,23 +83,27 @@
 	name = "\improper Barracks"
 	icon_state = "yellow"
 	dynamic_lighting = 0
+	requires_power = 0
 
 /area/elpaso/rescue_base/start
 	name = "\improper Response Team Base"
 	icon_state = "shuttlered"
 	base_turf = /turf/unsimulated/floor
+	dynamic_lighting = 0
 
 /area/elpaso/rescue_base/southwest
 	name = "south west"
 	icon_state = "southwest"
 	base_turf = /turf/simulated/floor/natural/sand/gray
 	dynamic_lighting = 0
+	requires_power = 0
 
 /area/elpaso/rescue_base/northwest
 	name = "north west"
 	icon_state = "northwest"
 	base_turf = /turf/simulated/floor/natural/sand/gray
 	dynamic_lighting = 0
+	requires_power = 0
 
 /area/elpaso/rescue_base/northeast
 	name = "north east"
@@ -112,6 +121,7 @@
 	name = "\proper bluespace"
 	icon_state = "shuttle"
 	base_turf = /turf/space/transit/north
+	requires_power = 0
 
 // ENEMY
 
@@ -126,12 +136,15 @@
 	name = "\improper Syndicate Forward Operating Base"
 	icon_state = "yellow"
 	base_turf = /turf/space
+	dynamic_lighting = 0
+	requires_power = 0
 
 /area/elpaso/syndicate_station/southwest
 	name = "south west"
 	icon_state = "southwest"
 	base_turf = /turf/simulated/floor/natural/sand/gray
 	dynamic_lighting = 0
+	requires_power = 0
 
 /area/elpaso/syndicate_station/northwest
 	name = "north west"
@@ -144,6 +157,7 @@
 	icon_state = "northeast"
 	base_turf = /turf/simulated/floor/natural/sand/gray
 	dynamic_lighting = 0
+	requires_power = 0
 
 /area/elpaso/syndicate_station/southeast
 	name = "south east"
@@ -185,6 +199,7 @@
 	name = "\improper Skipjack"
 	icon_state = "yellow"
 	requires_power = 0
+	dynamic_lighting = 0
 	ambient_music_tags = list(MUSIC_TAG_MYSTIC, MUSIC_TAG_SPACE)
 	base_turf = /turf/space
 
@@ -221,25 +236,33 @@
 	name = "\improper Skipjack"
 	icon_state = "shuttlered"
 	base_turf = /turf/space
+	dynamic_lighting = 0
 
 /area/elpaso/skipjack_station/transit
 	name = "Skipjack Transit"
 	icon_state = "shuttle"
 	base_turf = /turf/space/transit/north
+	dynamic_lighting = 0
 
 //Street_areas
 
 /area/elpaso/street_north
-	name = "Elpaso - Streets North"
+	name = "Streets North"
 	base_turf = /turf/simulated/floor/natural/sand/gray
 	dynamic_lighting = 0
 
 /area/elpaso/street_south
-	name = "Elpaso - Streets South"
+	name = "Streets South"
 	base_turf = /turf/simulated/floor/natural/sand/gray
 	dynamic_lighting = 0
 
 area/elpaso/desert
 	name = "Desert"
 	base_turf = /turf/simulated/floor/natural/sand/gray
+	dynamic_lighting = 0
+
+area/elpaso/desert_inside
+	name = "Desert Building"
+	base_turf = /turf/simulated/floor/natural/sand/gray
+	requires_power = 0
 	dynamic_lighting = 0

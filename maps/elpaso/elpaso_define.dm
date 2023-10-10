@@ -6,9 +6,13 @@
 	shuttle_types = list(
 		/datum/shuttle/autodock/ferry/escape_pod/escape_pod3,
 		/datum/shuttle/autodock/ferry/supply/drone,
-		/datum/shuttle/autodock/ferry/emergency/centcom,
-		/datum/shuttle/autodock/multi/antag/syndicate,
-		/datum/shuttle/autodock/multi/antag/rescue
+		/datum/shuttle/autodock/ferry/emergency/centcom_paso,
+		/datum/shuttle/autodock/multi/antag/syndicate_paso,
+		/datum/shuttle/autodock/multi/antag/rescue_paso,
+		/datum/shuttle/autodock/multi/antag/elite_syndicate,
+		/datum/shuttle/autodock/ferry/deathsquad_paso,
+		/datum/shuttle/autodock/multi/antag/merchant,
+		/datum/shuttle/autodock/multi/antag/skipjack_paso
 	)
 
 	map_levels = list(
